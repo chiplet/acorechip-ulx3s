@@ -1,0 +1,6 @@
+[submodule "ACoreChip"]
+	path = ACoreChip
+	url = git@gitlab.com:a-core/a-core_chisel/ACoreChip.git
+[submodule "sw/riscv-c-tests"]
+	path = sw/riscv-c-tests
+	url = git@gitlab.com:a-core/a-core_software/riscv-c-tests.git
