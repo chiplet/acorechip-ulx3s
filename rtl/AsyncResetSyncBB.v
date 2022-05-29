@@ -1,0 +1,1 @@
+../ACoreChip/verilog/AsyncResetSyncBB.v
