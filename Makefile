@@ -6,7 +6,7 @@ PROGRAM ?= blinky
 # Sources
 TOP_MODULE = ACoreChip
 VLOGDIR = rtl/
-VLOGMODS = top.v ACoreChip.v AsyncResetSyncBB.v
+VLOGMODS = top.v ACoreChip.v AsyncResetSyncBB.v TMDS_encoder.v pll.v
 VLOGSRC = $(addprefix $(VLOGDIR), $(VLOGMODS))
 CONSTRAINTS = constr/constr.lpf
 
